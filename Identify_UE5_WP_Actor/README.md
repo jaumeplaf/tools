@@ -14,11 +14,13 @@ Tool to translate UE5 WP Actors from their custom ID to their actual display nam
 <img width="466" height="118" alt="Screenshot 2026-05-26 075423" src="https://github.com/user-attachments/assets/768c7b0e-befb-4e0c-a20b-a629ebcaca01" />
 
 # Github desktop
-·Copy the .exe in the repository root (or wherever you want)
+·Copy the .exe to the repository root (or keep it anywhere you want).
 
 ·Go to Repository->Open in Command Prompt
 
-·Run resolve_actor.exe . --all-changed --pause (if you moved the .exe in a different folder you need to navigate there)
+·If the .exe is in the repo root, run: resolve_actor.exe . --all-changed --pause
+
+·If the .exe is outside the repo, run it with full path: "C:\Full\Path\To\resolve_actor.exe" . --all-changed --pause
 
 <img width="248" height="247" alt="Screenshot 2026-05-26 075931" src="https://github.com/user-attachments/assets/bfb178c9-731c-4e51-b651-6c4ddeeb05af" />
 <img width="802" height="95" alt="Screenshot 2026-05-26 075915" src="https://github.com/user-attachments/assets/637e54b2-7fc8-4f5a-b068-bbf3e25f3d43" />
