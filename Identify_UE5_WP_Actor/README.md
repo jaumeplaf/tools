@@ -2,7 +2,9 @@
 Tool to translate UE5 WP Actors from their custom ID to their actual display name.
 
 # Sourcetree:
-·Go to Tools->Options->Custom Actions->Add
+·Download the .exe or clone the repo
+
+·Go to Tools->Options->Custom Actions->Add. Set "Open in a separate window" true, "Show full output" true, "Run command silently" false. Link the .exe to the "Script to run". Set Parameters: "$REPO $FILE --pause".
 
 ·Use it by right clicking the selected files->Custom Actions->IdentifyUE5_WP_Actor
 
